@@ -1,0 +1,35 @@
+@import "smart-grid.less";
+
+html, body{
+	margin: 20px 0 0 0;
+	background: #232323;
+	color: #fff;
+}
+
+
+.wraper{
+	max-width: 1280px;
+	padding: 0 15px;
+	margin: 0 auto;
+	border: 1px solid #ff0;
+}
+.row{
+	.row-flex();
+	.justify-content(center);
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+.col{
+	.col();
+	.col-3();
+	.col-md-5();
+	.col-sm-10();
+	
+	border: 1px solid #fff;
+	background: #777;
+	min-height: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 15px;
+}
+
